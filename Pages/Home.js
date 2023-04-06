@@ -2,15 +2,15 @@ import classes from "./Home.module.css";
 import React, { useState } from "react";
 
 export default function Home() {
-  const urls = ["janna.jpg", "jaeho.jpg", "ruiheng.jpg"];
+  const urls = ["profile_pic.jpg", "about_me.jpg", "learn_more.jpg"];
   const [personState, setPersonState] = useState(0);
   // useState(arg) returns an array with 2 items to match the two variables "personState" and "setpersonState"
   // sets the first item, "personState", as 0, and the second item is React's default function (implementation not needed to be known)
 
   const captions = [
-    "Janna, and I have high DHL cholesterol.",
-    "Jaeho, and I'm scared of cats and dogs.",
-    "Ruiheng, and I enjoy groundhogs."
+    "Hi, I'm Gavin. Welcome to my profile.",
+    "Here you can learn a lot about me.",
+    "Let's take a look at what I'm up to"
   ];
 
   return (
